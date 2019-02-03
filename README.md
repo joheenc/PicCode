@@ -28,11 +28,9 @@ Example of error feedback to help debug.
 -Allow texting of parameters along with the image of the code
 
 ### Technologies Used
-Google Cloud -  Optical Character Recognition tool to turn the image of the handwritten code into text
-                Compute Engine to hold our scripts, compile & run the code, and other backend
+Google Cloud -  Optical Character Recognition tool to turn the image of the handwritten code into text; Compute Engine to hold our scripts, compile & run the code, and other backend
                 
-Twilio API - Allows user to text MMS to a number and have it saved on Google Cloud Platform
-             Allows the number to text back to the user with the output (or error message), as processed on GCP
+Twilio API - Allows user to text MMS to a number and have it saved on Google Cloud Platform, Allows the number to text back to the user with the output (or error message), as processed on GCP
              
 Python w/ Flask - scripts, server
 
