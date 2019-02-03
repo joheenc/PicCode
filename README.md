@@ -12,7 +12,7 @@ We set up the entire program on the Google cloud platform so the app is always r
 
 ### Examples
 
-<img src="./img/test1.jpg" height=750/> 
+<img src="./img/test1.jpg" height=500/> 
 <img src="./img/test2.jpg" height=750/> 
 <img src="./img/test3.jpg" height=750/> 
 <img src="./img/test4.jpg" height=750/> 
