@@ -25,5 +25,12 @@ Example of error feedback to help debug.
 
 -Look at ways to improve the accuracy of the machine learning text to code algorithm. Currently, we've coded some basic algorithms that correct simple compiler mistakes (missing semicolons for example). But the Google Cloud OCR tool is trained on English grammar and vocabulary, which is less accurate than training a model on code from the ground up. There are also a number of research papers (ex. https://arxiv.org/pdf/1801.10467.pdf) that use deep learning text investigating to correct code for syntax errors after the fact, and, given a dataset of programs, we'd be able to  better train our own text recognition machine learning model.
 
+-Allow texting of parameters along with the image of the code
+
 ### Technologies Used
-Google Cloud, Twilio API, Python, Flask, ngrok
+Google Cloud -  Optical Character Recognition tool to turn the image of the handwritten code into text
+                Compute Engine to hold our scripts, compile & run the code, and other backend
+Twilio API - Allows user to text MMS to a number and have it saved on Google Cloud Platform
+             Allows the number to text back to the user with the output (or error message), as processed on GCP
+Python w/ Flask - scripts, server
+ngrok
